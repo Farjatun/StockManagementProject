@@ -1,0 +1,61 @@
+﻿.CBody {
+    background-color: #fdebd3;
+    background-image: url(category.png);
+    background-repeat: no-repeat;
+    background-position: inherit;
+   
+  
+   
+}
+.button:link{
+  background-color: #6c6c79;
+  color: white;
+  padding: 4px 29px;
+  text-align: center;
+  text-decoration:none;
+  display: inline-block;
+    font-family: Cursive;
+}
+.button:hover{
+    background-color:#4a4747;
+}
+
+.formInside {
+    
+}
+.formInside {
+    
+}
+.categoryBtn {
+    margin-left: 180px;
+    margin-top: -10px;
+    width: 130px;
+    height: 40px;
+    background-color: #c2c2f7;
+}
+.categoryBtn:hover {
+    background-color: #677a90;
+}
+.workingBody {
+    margin-top: 80px;
+}
+.fontF {
+    font-family: cursive;
+    font-size: -webkit-xxx-large;
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background-size: contain;
+    border-radius: .3rem;
+   
+}    
+#categoryNameTextBox {
+    width: 199px;
+    margin-left: 23px;
+    border-radius: 5px;
+    height: 39px;
+    padding-left: 8px;
+    padding-right: 8px;
+}  
+.pd {
+    padding-left: 10px;
+}                           

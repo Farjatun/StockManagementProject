@@ -1,0 +1,48 @@
+C:\Users\ShakilAhmed\Documents\Visual Studio 2013\Projects\PracticeProject\PracticeProject\bin\PracticeProject.dll.config
+C:\Users\ShakilAhmed\Documents\Visual Studio 2013\Projects\PracticeProject\PracticeProject\bin\PracticeProject.dll
+C:\Users\ShakilAhmed\Documents\Visual Studio 2013\Projects\PracticeProject\PracticeProject\bin\PracticeProject.pdb
+C:\Users\ShakilAhmed\Documents\Visual Studio 2013\Projects\PracticeProject\PracticeProject\obj\Debug\PracticeProject.dll
+C:\Users\ShakilAhmed\Documents\Visual Studio 2013\Projects\PracticeProject\PracticeProject\obj\Debug\PracticeProject.pdb
+C:\Users\ShakilAhmed\Documents\Visual Studio 2013\Projects\PracticeProject\PracticeProject\obj\Debug\StockManagementSystem_EXE.csprojResolveAssemblyReference.cache
+E:\CSE\Bitm\Project_1\Full project\PracticeProject\PracticeProject\bin\PracticeProject.dll.config
+E:\CSE\Bitm\Project_1\Full project\PracticeProject\PracticeProject\bin\PracticeProject.dll
+E:\CSE\Bitm\Project_1\Full project\PracticeProject\PracticeProject\bin\PracticeProject.pdb
+E:\CSE\Bitm\Project_1\Full project\PracticeProject\PracticeProject\obj\Debug\StockManagementSystem_EXE.csprojResolveAssemblyReference.cache
+E:\CSE\Bitm\Project_1\Full project\PracticeProject\PracticeProject\obj\Debug\PracticeProject.dll
+E:\CSE\Bitm\Project_1\Full project\PracticeProject\PracticeProject\obj\Debug\PracticeProject.pdb
+C:\Users\Nahian\Desktop\PracticeProject\PracticeProject\bin\PracticeProject.dll.config
+C:\Users\Nahian\Desktop\PracticeProject\PracticeProject\bin\PracticeProject.dll
+C:\Users\Nahian\Desktop\PracticeProject\PracticeProject\bin\PracticeProject.pdb
+C:\Users\Nahian\Desktop\PracticeProject\PracticeProject\obj\Debug\StockManagementSystem_EXE.csprojResolveAssemblyReference.cache
+C:\Users\Nahian\Desktop\PracticeProject\PracticeProject\obj\Debug\PracticeProject.dll
+C:\Users\Nahian\Desktop\PracticeProject\PracticeProject\obj\Debug\PracticeProject.pdb
+C:\Users\ShakilAhmed\Downloads\Compressed\PracticeProject\bin\PracticeProject.dll.config
+C:\Users\ShakilAhmed\Downloads\Compressed\PracticeProject\bin\PracticeProject.dll
+C:\Users\ShakilAhmed\Downloads\Compressed\PracticeProject\bin\PracticeProject.pdb
+C:\Users\ShakilAhmed\Downloads\Compressed\PracticeProject\obj\Debug\StockManagementSystem_EXE.csprojResolveAssemblyReference.cache
+C:\Users\ShakilAhmed\Downloads\Compressed\PracticeProject\obj\Debug\PracticeProject.dll
+C:\Users\ShakilAhmed\Downloads\Compressed\PracticeProject\obj\Debug\PracticeProject.pdb
+C:\Users\Bahar\Desktop\Xihad\PracticeProject\bin\PracticeProject.dll.config
+C:\Users\Bahar\Desktop\Xihad\PracticeProject\bin\PracticeProject.dll
+C:\Users\Bahar\Desktop\Xihad\PracticeProject\bin\PracticeProject.pdb
+C:\Users\Bahar\Desktop\Xihad\PracticeProject\obj\Debug\StockManagementSystem_EXE.csprojResolveAssemblyReference.cache
+C:\Users\Bahar\Desktop\Xihad\PracticeProject\obj\Debug\PracticeProject.dll
+C:\Users\Bahar\Desktop\Xihad\PracticeProject\obj\Debug\PracticeProject.pdb
+C:\Users\ShakilAhmed\Desktop\final\PracticeProject\bin\PracticeProject.dll.config
+C:\Users\ShakilAhmed\Desktop\final\PracticeProject\bin\PracticeProject.dll
+C:\Users\ShakilAhmed\Desktop\final\PracticeProject\bin\PracticeProject.pdb
+C:\Users\ShakilAhmed\Desktop\final\PracticeProject\obj\Debug\PracticeProject.dll
+C:\Users\ShakilAhmed\Desktop\final\PracticeProject\obj\Debug\PracticeProject.pdb
+C:\Users\ShakilAhmed\Desktop\final\PracticeProject\obj\Debug\StockManagementSystem_EXE.csprojResolveAssemblyReference.cache
+C:\Users\ShakilAhmed\Desktop\Project\final\PracticeProject\bin\PracticeProject.dll.config
+C:\Users\ShakilAhmed\Desktop\Project\final\PracticeProject\bin\PracticeProject.dll
+C:\Users\ShakilAhmed\Desktop\Project\final\PracticeProject\bin\PracticeProject.pdb
+C:\Users\ShakilAhmed\Desktop\Project\final\PracticeProject\obj\Debug\StockManagementSystem_EXE.csprojResolveAssemblyReference.cache
+C:\Users\ShakilAhmed\Desktop\Project\final\PracticeProject\obj\Debug\PracticeProject.dll
+C:\Users\ShakilAhmed\Desktop\Project\final\PracticeProject\obj\Debug\PracticeProject.pdb
+E:\Neccessary\iiuc\BITM_PROJECT\@Project\StockManagementProject\final\PracticeProject\bin\PracticeProject.dll.config
+E:\Neccessary\iiuc\BITM_PROJECT\@Project\StockManagementProject\final\PracticeProject\bin\PracticeProject.dll
+E:\Neccessary\iiuc\BITM_PROJECT\@Project\StockManagementProject\final\PracticeProject\bin\PracticeProject.pdb
+E:\Neccessary\iiuc\BITM_PROJECT\@Project\StockManagementProject\final\PracticeProject\obj\Debug\StockManagementSystem_EXE.csprojResolveAssemblyReference.cache
+E:\Neccessary\iiuc\BITM_PROJECT\@Project\StockManagementProject\final\PracticeProject\obj\Debug\PracticeProject.dll
+E:\Neccessary\iiuc\BITM_PROJECT\@Project\StockManagementProject\final\PracticeProject\obj\Debug\PracticeProject.pdb

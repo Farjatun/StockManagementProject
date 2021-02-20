@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DE3BE731-2393-469E-8128-8EF50A5DED07}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PracticeProject</RootNamespace>
+    <AssemblyName>PracticeProject</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DataVisualization" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="UI\AllStoryIndexUI.aspx" />
+    <Content Include="UI\Company_IndexUI.aspx" />
+    <Content Include="UI\Category_IndexUI.aspx" />
+    <Content Include="UI\ItemIndexUI.aspx" />
+    <Content Include="UI\SearchViewUI.aspx" />
+    <Content Include="UI\StockInUI.aspx" />
+    <Content Include="UI\StockOutUI.aspx" />
+    <Content Include="UI\Styles\AllStoryIndexes.css" />
+    <Content Include="UI\Styles\Category.css" />
+    <Content Include="UI\Styles\Company.css" />
+    <Content Include="UI\Styles\Item.css" />
+    <Content Include="UI\Styles\Sales.css" />
+    <Content Include="UI\Styles\Search.css" />
+    <Content Include="UI\Styles\Stockin.css" />
+    <Content Include="UI\Styles\Stockout.css" />
+    <Content Include="UI\Styles\Update.css" />
+    <Content Include="UI\UpdateIndexUI.aspx" />
+    <Content Include="UI\ViewSalesUI.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BLL\Manager\CategoryManeger.cs" />
+    <Compile Include="BLL\Manager\CompanyManeger.cs" />
+    <Compile Include="BLL\Manager\ItemSetupManager.cs" />
+    <Compile Include="BLL\Manager\SearchViewManager.cs" />
+    <Compile Include="BLL\Manager\StockInManager.cs" />
+    <Compile Include="BLL\Manager\StockOutManager.cs" />
+    <Compile Include="BLL\Manager\ViewSalesManager.cs" />
+    <Compile Include="BLL\Model\Category.cs" />
+    <Compile Include="BLL\Model\Company.cs" />
+    <Compile Include="BLL\Model\Item.cs" />
+    <Compile Include="BLL\Model\StockIn.cs" />
+    <Compile Include="BLL\Model\StockOut_.cs" />
+    <Compile Include="BLL\Model\ViewModel\GetItemInfo.cs" />
+    <Compile Include="BLL\Model\ViewModel\SearchItemViewModel.cs" />
+    <Compile Include="DAL\Gateway\CategoryGateway.cs" />
+    <Compile Include="DAL\Gateway\CompanyGateway.cs" />
+    <Compile Include="DAL\Gateway\ItemGateway.cs" />
+    <Compile Include="DAL\Gateway\SearchViewGateway.cs" />
+    <Compile Include="DAL\Gateway\StockInGateway.cs" />
+    <Compile Include="DAL\Gateway\StockOutGateWay.cs" />
+    <Compile Include="DAL\Gateway\ViewSalesGateway.cs" />
+    <Compile Include="UI\AllStoryIndexUI.aspx.cs">
+      <DependentUpon>AllStoryIndexUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\AllStoryIndexUI.aspx.designer.cs">
+      <DependentUpon>AllStoryIndexUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Company_IndexUI.aspx.cs">
+      <DependentUpon>Company_IndexUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\Company_IndexUI.aspx.designer.cs">
+      <DependentUpon>Company_IndexUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Category_IndexUI.aspx.cs">
+      <DependentUpon>Category_IndexUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\Category_IndexUI.aspx.designer.cs">
+      <DependentUpon>Category_IndexUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UI\ItemIndexUI.aspx.cs">
+      <DependentUpon>ItemIndexUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\ItemIndexUI.aspx.designer.cs">
+      <DependentUpon>ItemIndexUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\SearchViewUI.aspx.cs">
+      <DependentUpon>SearchViewUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\SearchViewUI.aspx.designer.cs">
+      <DependentUpon>SearchViewUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\StockInUI.aspx.cs">
+      <DependentUpon>StockInUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\StockInUI.aspx.designer.cs">
+      <DependentUpon>StockInUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\StockOutUI.aspx.cs">
+      <DependentUpon>StockOutUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\StockOutUI.aspx.designer.cs">
+      <DependentUpon>StockOutUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\UpdateIndexUI.aspx.cs">
+      <DependentUpon>UpdateIndexUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\UpdateIndexUI.aspx.designer.cs">
+      <DependentUpon>UpdateIndexUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ViewSalesUI.aspx.cs">
+      <DependentUpon>ViewSalesUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\ViewSalesUI.aspx.designer.cs">
+      <DependentUpon>ViewSalesUI.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>59296</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:59296/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
